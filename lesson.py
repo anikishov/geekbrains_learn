@@ -6,9 +6,7 @@ print(name,",good day")
 
 answer = input("Shall we study? (Y/N)\n")
 
-if answer == 'n' or answer == 'N':
-    print("LOOSER!! BYE")  
-elif answer == 'Y' or answer == 'y':   
+if answer == 'y' or answer == 'Y':
     print("It great select, what you want to do?") 
     wanttodo = input("1 - Study Python. 2 - Study GIT. 3 - Read Pikabu\n")
     if wanttodo == '1':
@@ -19,6 +17,9 @@ elif answer == 'Y' or answer == 'y':
         print("Bad choice. Better read PEP-8.")
     else:
         print("Uknown answer")
+ 
+elif answer == 'Y' or answer == 'y':   
+    print("LOOSER!! BYE")
 else:
-	print("UKNOWN VALUE")
+    print("UKNOWN VALUE")
 
