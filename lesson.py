@@ -18,7 +18,7 @@ elif answer == 'Y' or answer == 'y':
     elif wanttodo == '3':
         print("Bad choice. Better read PEP-8.")
     else:
-        print("Uknown answer")
+        print("Uknown answer!!!!")
 else:
-	print("UKNOWN VALUE")
+	print("UKNOWN VALUE!!!!")
 
