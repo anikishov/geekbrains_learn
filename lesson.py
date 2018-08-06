@@ -22,4 +22,6 @@ elif answer == 'n' or answer == 'N':
     print("LOOSER!! BYE")
 else:
     print("UKNOWN VALUE")
-
+        print("Uknown answer!!!!")
+else:
+	print("UKNOWN VALUE!!!!")
