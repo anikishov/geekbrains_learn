@@ -2,7 +2,7 @@
 
 print("Py learn program!")
 name = input("Your name: ")
-print(name,",good day")
+print(name,",good day!")
 
 answer = input("Shall we study? (Y/N)\n")
 
@@ -18,7 +18,7 @@ if answer == 'y' or answer == 'Y':
     else:
         print("Uknown answer")
  
-elif answer == 'Y' or answer == 'y':   
+elif answer == 'n' or answer == 'N':   
     print("LOOSER!! BYE")
 else:
     print("UKNOWN VALUE")
